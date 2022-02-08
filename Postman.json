@@ -1,0 +1,402 @@
+{
+	"info": {
+		"_postman_id": "a67f1fef-d3fe-47a8-80fe-c67d35a95b94",
+		"name": "Postman Unit Tests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "All States Tests",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function() {",
+							"    pm.response.to.have.status(200)",
+							"})",
+							"",
+							"pm.test(\"Check if first state is Alabama\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData[0].name).to.eql(\"Alabama\");",
+							"});",
+							"",
+							"pm.test(\"Check if 50 states are returned\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.length).to.eql(50);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://ratemypolitician.me/api/states",
+					"protocol": "http",
+					"host": [
+						"ratemypolitician",
+						"me"
+					],
+					"path": [
+						"api",
+						"states"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "All Politicians Tests",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function() {",
+							"    pm.response.to.have.status(200)",
+							"})",
+							"",
+							"pm.test(\"Check if first politician is Tommy Tuberville\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData[0].name).to.eql(\"Tommy Tuberville\");",
+							"});",
+							"",
+							"pm.test(\"Check if 586 politicians are returned\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.length).to.eql(586);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://ratemypolitician.me/api/politicians",
+					"protocol": "http",
+					"host": [
+						"ratemypolitician",
+						"me"
+					],
+					"path": [
+						"api",
+						"politicians"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "All News Sources Tests",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function() {",
+							"    pm.response.to.have.status(200)",
+							"})",
+							"",
+							"pm.test(\"Check if first news source is New York Times\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData[0].name).to.eql(\"New York Times\");",
+							"});",
+							"",
+							"pm.test(\"Check if 101 news sources are returned\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.length).to.eql(101);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://ratemypolitician.me/api/sources",
+					"protocol": "http",
+					"host": [
+						"ratemypolitician",
+						"me"
+					],
+					"path": [
+						"api",
+						"sources"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Single State Tests",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function() {",
+							"    pm.response.to.have.status(200)",
+							"})",
+							"",
+							"pm.test(\"Check if name is Kansas\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.name).to.eql(\"Kansas\");",
+							"});",
+							"",
+							"pm.test(\"Check if Governor is Laura Kelly\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.governor_name).to.eql(\"Laura Kelly\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://ratemypolitician.me/api/states/15",
+					"protocol": "http",
+					"host": [
+						"ratemypolitician",
+						"me"
+					],
+					"path": [
+						"api",
+						"states",
+						"15"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Single State by Name Tests",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function() {",
+							"    pm.response.to.have.status(200)",
+							"})",
+							"",
+							"pm.test(\"Check if name is Colorado\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.name).to.eql(\"Colorado\");",
+							"});",
+							"",
+							"pm.test(\"Check if Governor is Jared Polis\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.governor_name).to.eql(\"Jared Polis\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://ratemypolitician.me/api/states/colorado",
+					"protocol": "http",
+					"host": [
+						"ratemypolitician",
+						"me"
+					],
+					"path": [
+						"api",
+						"states",
+						"colorado"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Single Politician Tests",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function() {",
+							"    pm.response.to.have.status(200)",
+							"})",
+							"",
+							"pm.test(\"Check if name is Joe Courtney\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.name).to.eql(\"Joe Courtney\");",
+							"});",
+							"",
+							"pm.test(\"Check if party is Democratic Party\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.party).to.eql(\"Democratic Party\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://ratemypolitician.me/api/politicians/103",
+					"protocol": "http",
+					"host": [
+						"ratemypolitician",
+						"me"
+					],
+					"path": [
+						"api",
+						"politicians",
+						"103"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Single Politician by Name Tests",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function() {",
+							"    pm.response.to.have.status(200)",
+							"})",
+							"",
+							"pm.test(\"Check if name is Gavin Newsom\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.name).to.eql(\"Gavin Newsom\");",
+							"});",
+							"",
+							"pm.test(\"Check if party is Democratic Party\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.party).to.eql(\"Democratic Party\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://ratemypolitician.me/api/politicians/Gavin Newsom",
+					"protocol": "http",
+					"host": [
+						"ratemypolitician",
+						"me"
+					],
+					"path": [
+						"api",
+						"politicians",
+						"Gavin Newsom"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Single News Source Tests",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function() {",
+							"    pm.response.to.have.status(200)",
+							"})",
+							"",
+							"pm.test(\"Check if name is Abc Television\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.name).to.eql(\"Abc Television\");",
+							"});",
+							"",
+							"pm.test(\"Check if employees is 3001\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.employees).to.eql(3001);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://ratemypolitician.me/api/sources/54",
+					"protocol": "http",
+					"host": [
+						"ratemypolitician",
+						"me"
+					],
+					"path": [
+						"api",
+						"sources",
+						"54"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Single News Source by Name Tests",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function() {",
+							"    pm.response.to.have.status(200)",
+							"})",
+							"",
+							"pm.test(\"Check if name is Pbs\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.name).to.eql(\"Pbs\");",
+							"});",
+							"",
+							"pm.test(\"Check if employees is 958\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.employees).to.eql(958);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://ratemypolitician.me/api/sources/pbs",
+					"protocol": "http",
+					"host": [
+						"ratemypolitician",
+						"me"
+					],
+					"path": [
+						"api",
+						"sources",
+						"pbs"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

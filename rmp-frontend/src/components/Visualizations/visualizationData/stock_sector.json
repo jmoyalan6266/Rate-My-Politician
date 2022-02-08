@@ -1,0 +1,54 @@
+[
+    {
+        "sector": "Basic Indu",
+        "Number of Stocks": 17 
+    },
+    {
+        "sector": "Capital Go",
+        "Number of Stocks": 33
+    },
+    {
+        "sector": "Consumer D",
+        "Number of Stocks": 5
+    },
+    {
+        "sector": "Consumer N",
+        "Number of Stocks": 14
+    },
+    {
+        "sector": "Consumer S",
+        "Number of Stocks": 52
+    },
+    {
+        "sector": "Energy",
+        "Number of Stocks": 24
+    },
+    {
+        "sector": "Finance",
+        "Number of Stocks": 74
+    },
+    {
+        "sector": "Health Car",
+        "Number of Stocks": 39
+    },
+    {
+        "sector": "Miscellane",
+        "Number of Stocks": 5
+    },
+    {
+        "sector": "None",
+        "Number of Stocks": 121
+    },
+    {
+        "sector": "Public Uti",
+        "Number of Stocks": 56
+    },
+    {
+        "sector": "Technology",
+        "Number of Stocks": 29
+    },
+    {
+        "sector": "Transporta",
+        "Number of Stocks": 13
+    }
+]

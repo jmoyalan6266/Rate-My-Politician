@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test State Model page views States 1`] = `
+<Container
+  className="my-4"
+  fluid={false}
+>
+  <StateModelHeader
+    allStates={Array []}
+    ascending={true}
+    filter=""
+    filterBy="Name"
+    setAllStates={[Function]}
+    setAscending={[Function]}
+    setFilter={[Function]}
+    setFilterBy={[Function]}
+    setSortBy={[Function]}
+    sortBy="Name"
+  />
+  <Row
+    noGutters={false}
+  />
+  <StatePagination
+    allStates={Array []}
+    page={1}
+    setPage={[Function]}
+  />
+</Container>
+`;

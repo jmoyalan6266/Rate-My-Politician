@@ -1,0 +1,323 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test page views Splash 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "backgroundImage": "url(background1.jpeg)",
+        "backgroundPosition": "center",
+        "backgroundRepeat": "no-repeat",
+        "backgroundSize": "cover",
+        "height": "100vh",
+      }
+    }
+  >
+    <br />
+    <h1
+      style={
+        Object {
+          "color": "black",
+          "fontFamily": "courier",
+          "fontSize": "350%",
+          "textAlign": "left",
+        }
+      }
+    >
+        The REAL Truth
+    </h1>
+    <h1
+      style={
+        Object {
+          "color": "black",
+          "fontFamily": "courier",
+          "fontSize": "350%",
+          "textAlign": "left",
+        }
+      }
+    >
+        Behind Your Politician.
+    </h1>
+    <br />
+                   
+    <Button
+      active={false}
+      as={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "propTypes": Object {
+            "innerRef": [Function],
+            "onClick": [Function],
+            "replace": [Function],
+            "target": [Function],
+            "to": [Function],
+          },
+          "render": [Function],
+        }
+      }
+      disabled={false}
+      size="lg"
+      to="/states"
+      variant="dark"
+    >
+      Find your State
+    </Button>
+     
+           
+    <Button
+      active={false}
+      as={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "propTypes": Object {
+            "innerRef": [Function],
+            "onClick": [Function],
+            "replace": [Function],
+            "target": [Function],
+            "to": [Function],
+          },
+          "render": [Function],
+        }
+      }
+      disabled={false}
+      size="lg"
+      to="/politicians"
+      variant="dark"
+    >
+      Find your Politician
+    </Button>
+  </div>
+  <br />
+  <h1
+    style={
+      Object {
+        "color": "black",
+        "fontFamily": "courier",
+        "fontSize": "300%",
+        "textAlign": "center",
+      }
+    }
+  >
+    Popular News Sources to Check Out
+  </h1>
+  <Container
+    fluid={false}
+  >
+    <CardDeck>
+      <Card
+        body={false}
+      >
+        <CardImg
+          variant="top"
+        />
+        <CardBody>
+          <center>
+            <CardTitle />
+            <CardText>
+              <strong>
+                Based in:
+              </strong>
+               
+              , 
+               
+            </CardText>
+            <CardText>
+              <strong>
+                Year Founded:
+              </strong>
+               
+            </CardText>
+            <CardText>
+              <strong>
+                Number of Employees:
+              </strong>
+               
+            </CardText>
+            <CardText>
+              <strong>
+                Twitter:
+              </strong>
+               
+            </CardText>
+            <Button
+              active={false}
+              as={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "propTypes": Object {
+                    "innerRef": [Function],
+                    "onClick": [Function],
+                    "replace": [Function],
+                    "target": [Function],
+                    "to": [Function],
+                  },
+                  "render": [Function],
+                }
+              }
+              disabled={false}
+              to="/news/undefined"
+              variant="dark"
+            >
+              More Info
+            </Button>
+          </center>
+        </CardBody>
+      </Card>
+      <Card
+        body={false}
+      >
+        <CardImg
+          variant="top"
+        />
+        <CardBody>
+          <center>
+            <CardTitle />
+            <CardText>
+              <strong>
+                Based in:
+              </strong>
+               
+              , 
+               
+            </CardText>
+            <CardText>
+              <strong>
+                Year Founded:
+              </strong>
+               
+            </CardText>
+            <CardText>
+              <strong>
+                Number of Employees:
+              </strong>
+               
+            </CardText>
+            <CardText>
+              <strong>
+                Twitter:
+              </strong>
+               
+            </CardText>
+            <Button
+              active={false}
+              as={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "propTypes": Object {
+                    "innerRef": [Function],
+                    "onClick": [Function],
+                    "replace": [Function],
+                    "target": [Function],
+                    "to": [Function],
+                  },
+                  "render": [Function],
+                }
+              }
+              disabled={false}
+              to="/news/undefined"
+              variant="dark"
+            >
+              More Info
+            </Button>
+          </center>
+        </CardBody>
+      </Card>
+      <Card
+        body={false}
+      >
+        <CardImg
+          variant="top"
+        />
+        <CardBody>
+          <center>
+            <CardTitle />
+            <CardText>
+              <strong>
+                Based in:
+              </strong>
+               
+              , 
+               
+            </CardText>
+            <CardText>
+              <strong>
+                Year Founded:
+              </strong>
+               
+            </CardText>
+            <CardText>
+              <strong>
+                Number of Employees:
+              </strong>
+               
+            </CardText>
+            <CardText>
+              <strong>
+                Twitter:
+              </strong>
+               
+            </CardText>
+            <Button
+              active={false}
+              as={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "propTypes": Object {
+                    "innerRef": [Function],
+                    "onClick": [Function],
+                    "replace": [Function],
+                    "target": [Function],
+                    "to": [Function],
+                  },
+                  "render": [Function],
+                }
+              }
+              disabled={false}
+              to="/news/undefined"
+              variant="dark"
+            >
+              More Info
+            </Button>
+          </center>
+        </CardBody>
+      </Card>
+    </CardDeck>
+  </Container>
+  <br />
+  <Jumbotron
+    fluid={false}
+  >
+    <center>
+      <h1>
+        How well do you know your politician?
+      </h1>
+      <p>
+        In this world filled with an abundance of information, how do we know what to believe and what information is accurate? We hear a lot about fake news and a lot of differing stories about the same people. Our website hopes to shed some light on this and begin to see how different news outlets cover politicians.
+      </p>
+      <p>
+        <Button
+          active={false}
+          as={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "propTypes": Object {
+                "innerRef": [Function],
+                "onClick": [Function],
+                "replace": [Function],
+                "target": [Function],
+                "to": [Function],
+              },
+              "render": [Function],
+            }
+          }
+          disabled={false}
+          to="/about"
+          variant="dark"
+        >
+          Learn more
+        </Button>
+      </p>
+    </center>
+  </Jumbotron>
+</div>
+`;

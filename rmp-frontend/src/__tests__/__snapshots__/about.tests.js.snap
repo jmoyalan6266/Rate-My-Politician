@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test About page views About 1`] = `
+<Container
+  fluid={false}
+>
+  <AboutHead />
+  <Loading />
+  <hr
+    className="mt-5"
+  />
+  <Stats />
+  <hr
+    className="mt-5"
+  />
+  <DataSources />
+  <hr
+    className="mt-5"
+  />
+  <Tools />
+</Container>
+`;

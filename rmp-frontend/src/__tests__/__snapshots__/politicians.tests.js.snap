@@ -1,0 +1,150 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Politician Model page views Politicians 1`] = `
+<div
+  className="mb-4"
+  style={
+    Object {
+      "margin": "auto",
+      "minHeight": "900px",
+      "paddingTop": "20px",
+      "width": "80%",
+    }
+  }
+>
+  <center>
+    <h1
+      className="mb-3 mt-1"
+    >
+      Politicians
+    </h1>
+  </center>
+  <WithStyles(Component)
+    columns={
+      Array [
+        Object {
+          "render": [Function],
+          "title": "",
+        },
+        Object {
+          "field": "name",
+          "title": "Name",
+        },
+        Object {
+          "field": "party",
+          "title": "Party",
+        },
+        Object {
+          "field": "state",
+          "title": "State",
+        },
+        Object {
+          "field": "office",
+          "title": "Office",
+        },
+        Object {
+          "field": "office_city",
+          "title": "Office City",
+        },
+        Object {
+          "render": [Function],
+          "title": "",
+        },
+      ]
+    }
+    data={Array []}
+    icons={
+      Object {
+        "Add": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "Check": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "Clear": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "Delete": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "DetailPanel": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "Edit": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "Export": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "Filter": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "FirstPage": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "LastPage": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "NextPage": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "PreviousPage": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "ResetSearch": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "Search": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "SortArrow": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "ThirdStateCheck": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "ViewColumn": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+      }
+    }
+    options={
+      Object {
+        "filtering": true,
+        "headerStyle": Object {
+          "backgroundColor": "#6797cf",
+          "fontSize": 16,
+        },
+        "onRowClick": [Function],
+        "pageSize": 10,
+        "pageSizeOptions": Array [
+          10,
+          20,
+          50,
+        ],
+        "rowStyle": [Function],
+        "showTitle": false,
+        "sorting": true,
+      }
+    }
+    title="Politicians"
+  />
+</div>
+`;

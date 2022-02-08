@@ -1,0 +1,211 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test News Source Model page views News Sources 1`] = `
+<Container
+  className="my-4"
+  fluid={false}
+>
+  <div>
+    <center>
+      <h1>
+        News Sources
+      </h1>
+    </center>
+    <Row
+      className="justify-content-center my-2"
+      noGutters={false}
+    >
+      <h3
+        className="my-3"
+      >
+        Sort: 
+      </h3>
+      <DropdownButton
+        className="m-3"
+        id="dropdown-basic-button"
+        title="Name"
+      >
+        <DropdownItem
+          as={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "render": [Function],
+            }
+          }
+          disabled={false}
+          onClick={[Function]}
+        >
+          Name
+        </DropdownItem>
+        <DropdownItem
+          as={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "render": [Function],
+            }
+          }
+          disabled={false}
+          onClick={[Function]}
+        >
+          Based In
+        </DropdownItem>
+        <DropdownItem
+          as={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "render": [Function],
+            }
+          }
+          disabled={false}
+          onClick={[Function]}
+        >
+          Year Founded
+        </DropdownItem>
+        <DropdownItem
+          as={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "render": [Function],
+            }
+          }
+          disabled={false}
+          onClick={[Function]}
+        >
+          Number of Employees
+        </DropdownItem>
+        <DropdownItem
+          as={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "render": [Function],
+            }
+          }
+          disabled={false}
+          onClick={[Function]}
+        >
+          Twitter
+        </DropdownItem>
+      </DropdownButton>
+      <MdArrowDownward
+        className="my-3"
+        onClick={[Function]}
+        size="2rem"
+      />
+      <h3
+        className="my-3 ml-4"
+      >
+        Filter: 
+      </h3>
+      <DropdownButton
+        className="m-3"
+        id="dropdown-basic-button"
+        title="Name"
+      >
+        <DropdownItem
+          as={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "render": [Function],
+            }
+          }
+          disabled={false}
+          onClick={[Function]}
+        >
+          Name
+        </DropdownItem>
+        <DropdownItem
+          as={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "render": [Function],
+            }
+          }
+          disabled={false}
+          onClick={[Function]}
+        >
+          Based In
+        </DropdownItem>
+        <DropdownItem
+          as={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "render": [Function],
+            }
+          }
+          disabled={false}
+          onClick={[Function]}
+        >
+          Year Founded
+        </DropdownItem>
+        <DropdownItem
+          as={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "render": [Function],
+            }
+          }
+          disabled={false}
+          onClick={[Function]}
+        >
+          Number of Employees
+        </DropdownItem>
+        <DropdownItem
+          as={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "render": [Function],
+            }
+          }
+          disabled={false}
+          onClick={[Function]}
+        >
+          Twitter
+        </DropdownItem>
+      </DropdownButton>
+      <FormControl
+        className="my-3"
+        onChange={[Function]}
+        placeholder="Filter"
+        style={
+          Object {
+            "maxWidth": "10rem",
+          }
+        }
+        type="text"
+        value=""
+      />
+    </Row>
+  </div>
+  <Row
+    noGutters={false}
+  />
+  <Row
+    className="justify-content-center mt-2"
+    noGutters={false}
+  >
+    <p>
+      0
+       News Sources Instances
+    </p>
+  </Row>
+  <Row
+    className="justify-content-center mt-4"
+    noGutters={false}
+  >
+    <ForwardRef>
+      <First
+        onClick={[Function]}
+      />
+      <Prev
+        onClick={[Function]}
+      />
+      <Next
+        onClick={[Function]}
+      />
+      <Last
+        onClick={[Function]}
+      />
+    </ForwardRef>
+  </Row>
+</Container>
+`;

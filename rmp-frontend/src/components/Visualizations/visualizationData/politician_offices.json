@@ -1,0 +1,17 @@
+[
+    {
+      "id": "Governor",
+      "label": "Governor",
+      "value": 50
+    },
+    {
+      "id": "U.S. Senator",
+      "label": "U.S. Senator",
+      "value": 100
+    },
+    {
+      "id": "U.S Represenative",
+      "label": "U.S Represenative",
+      "value": 426
+    }
+]  
